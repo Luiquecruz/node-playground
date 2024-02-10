@@ -1,0 +1,23 @@
+<h1>{{ title }}</h1>
+<p>Welcome to {{ title }}!</p>
+
+{{# if anyCondition }}
+  <p>
+    Server condition is <strong>true</strong>
+  </p>
+{{ else }}
+  <p>
+    Server condition is <strong>false</strong>
+  </p>
+{{/if}}
+
+<table>
+  <tbody>
+    {{# each anyArray as |value i|}}
+      <tr>
+        <th>{{ i }}</th>
+        <td>{{ value }}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
