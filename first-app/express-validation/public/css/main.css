@@ -1,0 +1,35 @@
+body {
+  background: #3c3c3c;
+  color: #fdfdfd;
+}
+
+button {
+  cursor: pointer;
+  background: #696969;
+  border: 1px solid #696969;
+  color: #fdfdfd;
+  padding: 6px 12px;
+
+  &:hover {
+    background: #1f1f1f;
+  }
+}
+
+input {
+  color: #1f1f1f;
+  padding: 6px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.success {
+  background: #3bbd3b;
+  padding: 24px;
+}
+
+.errors {
+  background: #e42e2e;
+  padding: 24px;
+}
